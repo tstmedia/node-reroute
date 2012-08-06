@@ -3,20 +3,19 @@
   "version" : "0.0.1",
   "description" : "Resource routing for node",
   "main" : "./index.js",
+  "homepage" : "https://github.com/tstmedia/node-reroute",
+  "author" : "Mike Frey <mike.frey@tstmedia.com>",
   "dependencies" : {
-    "routes" : "*"
+    "routes" : ">=0.1"
   },
   "devDependencies" : {
     "mocha" : "*"
   },
   "engines" : {
-    "node" : ">=0.8.0",
-    "npm" : ">=1.1.21"
+    "node" : "*"
   },
-  "repository" : {
-    "type" : "git",
-    "url" : "git://github.com/mikefrey/reroute.git"
-  },
+  "keywords" : [ "router", "resource", "api", "rest", "restful" ],
+  "repository" : "git://github.com/tstmedia/node-reroute.git",
   "scripts": {
     "test" : "mocha --recursive -R spec test/tests.js"
   }
