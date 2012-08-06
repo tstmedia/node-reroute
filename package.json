@@ -1,0 +1,23 @@
+{
+  "name" : "reroute",
+  "version" : "0.0.1",
+  "description" : "Resource routing for node",
+  "main" : "./index.js",
+  "dependencies" : {
+    "routes" : "*"
+  },
+  "devDependencies" : {
+    "mocha" : "*"
+  },
+  "engines" : {
+    "node" : ">=0.8.0",
+    "npm" : ">=1.1.21"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git://github.com/mikefrey/reroute.git"
+  },
+  "scripts": {
+    "test" : "mocha --recursive -R spec test/tests.js"
+  }
+}

@@ -1,4 +1,4 @@
-node-reroute
-============
+reroute
+=======
 
-Routing module for Node.js applications.
+## Resource Routing for Node.js
