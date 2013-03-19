@@ -1,4 +1,3 @@
-reroute
-=======
+# This Repository Has Moved
 
-## Resource Routing for Node.js
+No new commits will be made here. Visit [sportngin/node-reroute](https://github.com/sportngin/node-reroute) for the latest work on this project.
